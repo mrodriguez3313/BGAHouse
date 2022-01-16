@@ -63,7 +63,21 @@ without that rpcUrl walletconnect will not work work. We have set included and .
 
 ## Develop
 
-First, run the development server:
+To run the biased algorithm, you can either execute it directly with:
+
+`node bias.js`
+
+This will output a random number from 0-5, each representing a different bee species.
+
+You can test its accuracy by running the `testProbs()` function.
+
+If you want to generate and mint bees, you can run:
+
+`bash mint.sh`
+
+This has the ipfs hashes for the respective bees already in an array. When a random number is chosen, we use string concatenation to add that ipfs hash to the POST request.
+
+To run the marketplace locally:
 
 ```bash
 yarn dev
