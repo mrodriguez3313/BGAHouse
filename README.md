@@ -17,6 +17,7 @@ A repo to bootstrap your own permissionless auction house with the Zora protocol
 
 ## Getting Started
 Simply use this repo as a next.js template replacing [project-name] with the title of your auction house.
+You can either fork, clone locally, and run `yarn`. Or continue with the following steps:
 
 ```bash
 yarn create next-app [project-name] -e https://github.com/ourzora/create-auction-house
